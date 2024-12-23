@@ -34,4 +34,6 @@ cv2.imshow("bambi_temp", img)
 cv2.waitKey(0)
 
 # 保存图像
-cv2.imwrite("~/temp.png", img)
+# cv2.imwrite("~/temp.png", img)
+# 销毁全部窗口
+cv2.destroyAllWindows()
